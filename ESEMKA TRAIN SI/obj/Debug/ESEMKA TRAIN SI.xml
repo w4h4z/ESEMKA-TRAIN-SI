@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ESEMKA TRAIN SI
+</name>
+</assembly>
+<members>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1.View_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1.View_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1.View_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.View_1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.CityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.CityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.CityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.CityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.CityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.CityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.CityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.CityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.CityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.CityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.CityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.CityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.CityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.CityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.CityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.CityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14.ScheduleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14.ScheduleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14.ScheduleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.ScheduleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15.View_6DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15.View_6Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15.View_6RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.View_6TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3.View_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3.View_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3.View_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.View_2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4.View_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4.View_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4.View_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.View_2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5.View_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5.View_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5.View_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.View_3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.BuyerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.PessengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TicketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TrainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.BuyerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.PessengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TicketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TrainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.BuyerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.PessengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TicketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.TrainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6.UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.BuyerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.PessengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TicketTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TrainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7.View_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7.View_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7.View_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.View_3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8.View_4DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8.View_4Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8.View_4RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.View_4TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9.View_5DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9.View_5Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9.View_5RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.View_5TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.UpdateAll(ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.ESEMKATRAINDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ESEMKA_TRAIN_SI.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ESEMKA_TRAIN_SI.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ESEMKA_TRAIN_SI.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

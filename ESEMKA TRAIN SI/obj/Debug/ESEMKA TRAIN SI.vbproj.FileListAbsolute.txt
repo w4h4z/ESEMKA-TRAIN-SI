@@ -1,0 +1,20 @@
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\bin\Debug\ESEMKA TRAIN SI.exe.config
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\bin\Debug\ESEMKA TRAIN SI.exe
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\bin\Debug\ESEMKA TRAIN SI.pdb
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\bin\Debug\ESEMKA TRAIN SI.xml
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Admin.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Guest.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Login_Frm.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Resources.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Register.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Reserve_Ticket.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Seat.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA_TRAIN_SI.Report.resources
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA TRAIN SI.vbproj.GenerateResource.Cache
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\RdlCompile.cache
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\RdlCompile.compiled
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA TRAIN SI.exe
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA TRAIN SI.xml
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA TRAIN SI.pdb
+D:\New folder (2)\ESEMKA TRAIN SI\ESEMKA TRAIN SI\obj\Debug\ESEMKA TRAIN SI.vbprojResolveAssemblyReference.cache

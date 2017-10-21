@@ -1,0 +1,4 @@
+TrainID,Train Name,Origin Route,Destination Route,Departure Time,Arrival Time,Train Class,Ticket Price
+1,Malioboro Ekspress,Malang,Yogyakarta,07.00,14.00,Ekonomi,155000
+2,Dhoho,Kediri,Malang,01.00,04.00,Economy,15000
+4,Malabar,Malang,Yogyakarta,01.00,18.00,Executive,195000

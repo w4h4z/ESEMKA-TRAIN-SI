@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ESEMKATRAINDataSet1" targetNamespace="http://tempuri.org/ESEMKATRAINDataSet1.xsd" xmlns:mstns="http://tempuri.org/ESEMKATRAINDataSet1.xsd" xmlns="http://tempuri.org/ESEMKATRAINDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ESEMKATRAINConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ESEMKATRAINConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESEMKA_TRAIN_SI.My.MySettings.GlobalReference.Default.ESEMKATRAINConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_1TableAdapter" GeneratorDataComponentClassName="View_1TableAdapter" Name="View_1" UserDataComponentName="View_1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ESEMKATRAINConnectionString (MySettings)" DbObjectName="ESEMKATRAIN.dbo.View_1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TicketID, TrainID, PessengerID, Dept_Date, SeatID, Status, Expr1, Row, Number, Expr2, Train_Name, Route1, Route2, Dept_Time, Arriv_Time, Train_Class, Ticket_Price, BuyerID, Name_Buyer, ID_Number, Phone_Number FROM dbo.View_1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TicketID" DataSetColumn="TicketID" />
+              <Mapping SourceColumn="TrainID" DataSetColumn="TrainID" />
+              <Mapping SourceColumn="PessengerID" DataSetColumn="PessengerID" />
+              <Mapping SourceColumn="Dept_Date" DataSetColumn="Dept_Date" />
+              <Mapping SourceColumn="SeatID" DataSetColumn="SeatID" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Row" DataSetColumn="Row" />
+              <Mapping SourceColumn="Number" DataSetColumn="Number" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="Train_Name" DataSetColumn="Train_Name" />
+              <Mapping SourceColumn="Route1" DataSetColumn="Route1" />
+              <Mapping SourceColumn="Route2" DataSetColumn="Route2" />
+              <Mapping SourceColumn="Dept_Time" DataSetColumn="Dept_Time" />
+              <Mapping SourceColumn="Arriv_Time" DataSetColumn="Arriv_Time" />
+              <Mapping SourceColumn="Train_Class" DataSetColumn="Train_Class" />
+              <Mapping SourceColumn="Ticket_Price" DataSetColumn="Ticket_Price" />
+              <Mapping SourceColumn="BuyerID" DataSetColumn="BuyerID" />
+              <Mapping SourceColumn="Name_Buyer" DataSetColumn="Name_Buyer" />
+              <Mapping SourceColumn="ID_Number" DataSetColumn="ID_Number" />
+              <Mapping SourceColumn="Phone_Number" DataSetColumn="Phone_Number" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ESEMKATRAINDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ESEMKATRAINDataSet1" msprop:Generator_UserDSName="ESEMKATRAINDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_1" msprop:Generator_TableClassName="View_1DataTable" msprop:Generator_TableVarName="tableView_1" msprop:Generator_TablePropName="View_1" msprop:Generator_RowDeletingName="View_1RowDeleting" msprop:Generator_RowChangingName="View_1RowChanging" msprop:Generator_RowEvHandlerName="View_1RowChangeEventHandler" msprop:Generator_RowDeletedName="View_1RowDeleted" msprop:Generator_UserTableName="View_1" msprop:Generator_RowChangedName="View_1RowChanged" msprop:Generator_RowEvArgName="View_1RowChangeEvent" msprop:Generator_RowClassName="View_1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TicketID" msprop:Generator_ColumnVarNameInTable="columnTicketID" msprop:Generator_ColumnPropNameInRow="TicketID" msprop:Generator_ColumnPropNameInTable="TicketIDColumn" msprop:Generator_UserColumnName="TicketID" type="xs:int" />
+              <xs:element name="TrainID" msprop:Generator_ColumnVarNameInTable="columnTrainID" msprop:Generator_ColumnPropNameInRow="TrainID" msprop:Generator_ColumnPropNameInTable="TrainIDColumn" msprop:Generator_UserColumnName="TrainID" type="xs:int" />
+              <xs:element name="PessengerID" msprop:Generator_ColumnVarNameInTable="columnPessengerID" msprop:Generator_ColumnPropNameInRow="PessengerID" msprop:Generator_ColumnPropNameInTable="PessengerIDColumn" msprop:Generator_UserColumnName="PessengerID" type="xs:int" />
+              <xs:element name="Dept_Date" msprop:Generator_ColumnVarNameInTable="columnDept_Date" msprop:Generator_ColumnPropNameInRow="Dept_Date" msprop:Generator_ColumnPropNameInTable="Dept_DateColumn" msprop:Generator_UserColumnName="Dept_Date" type="xs:dateTime" />
+              <xs:element name="SeatID" msprop:Generator_ColumnVarNameInTable="columnSeatID" msprop:Generator_ColumnPropNameInRow="SeatID" msprop:Generator_ColumnPropNameInTable="SeatIDColumn" msprop:Generator_UserColumnName="SeatID" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" />
+              <xs:element name="Row" msprop:Generator_ColumnVarNameInTable="columnRow" msprop:Generator_ColumnPropNameInRow="Row" msprop:Generator_ColumnPropNameInTable="RowColumn" msprop:Generator_UserColumnName="Row">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Number" msprop:Generator_ColumnVarNameInTable="columnNumber" msprop:Generator_ColumnPropNameInRow="Number" msprop:Generator_ColumnPropNameInTable="NumberColumn" msprop:Generator_UserColumnName="Number" type="xs:int" />
+              <xs:element name="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" type="xs:int" />
+              <xs:element name="Train_Name" msprop:Generator_ColumnVarNameInTable="columnTrain_Name" msprop:Generator_ColumnPropNameInRow="Train_Name" msprop:Generator_ColumnPropNameInTable="Train_NameColumn" msprop:Generator_UserColumnName="Train_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Route1" msprop:Generator_ColumnVarNameInTable="columnRoute1" msprop:Generator_ColumnPropNameInRow="Route1" msprop:Generator_ColumnPropNameInTable="Route1Column" msprop:Generator_UserColumnName="Route1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Route2" msprop:Generator_ColumnVarNameInTable="columnRoute2" msprop:Generator_ColumnPropNameInRow="Route2" msprop:Generator_ColumnPropNameInTable="Route2Column" msprop:Generator_UserColumnName="Route2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dept_Time" msprop:Generator_ColumnVarNameInTable="columnDept_Time" msprop:Generator_ColumnPropNameInRow="Dept_Time" msprop:Generator_ColumnPropNameInTable="Dept_TimeColumn" msprop:Generator_UserColumnName="Dept_Time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Arriv_Time" msprop:Generator_ColumnVarNameInTable="columnArriv_Time" msprop:Generator_ColumnPropNameInRow="Arriv_Time" msprop:Generator_ColumnPropNameInTable="Arriv_TimeColumn" msprop:Generator_UserColumnName="Arriv_Time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Train_Class" msprop:Generator_ColumnVarNameInTable="columnTrain_Class" msprop:Generator_ColumnPropNameInRow="Train_Class" msprop:Generator_ColumnPropNameInTable="Train_ClassColumn" msprop:Generator_UserColumnName="Train_Class">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ticket_Price" msprop:Generator_ColumnVarNameInTable="columnTicket_Price" msprop:Generator_ColumnPropNameInRow="Ticket_Price" msprop:Generator_ColumnPropNameInTable="Ticket_PriceColumn" msprop:Generator_UserColumnName="Ticket_Price">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BuyerID" msprop:Generator_ColumnVarNameInTable="columnBuyerID" msprop:Generator_ColumnPropNameInRow="BuyerID" msprop:Generator_ColumnPropNameInTable="BuyerIDColumn" msprop:Generator_UserColumnName="BuyerID" type="xs:int" />
+              <xs:element name="Name_Buyer" msprop:Generator_ColumnVarNameInTable="columnName_Buyer" msprop:Generator_ColumnPropNameInRow="Name_Buyer" msprop:Generator_ColumnPropNameInTable="Name_BuyerColumn" msprop:Generator_UserColumnName="Name_Buyer">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_Number" msprop:Generator_ColumnVarNameInTable="columnID_Number" msprop:Generator_ColumnPropNameInRow="ID_Number" msprop:Generator_ColumnPropNameInTable="ID_NumberColumn" msprop:Generator_UserColumnName="ID_Number">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone_Number" msprop:Generator_ColumnVarNameInTable="columnPhone_Number" msprop:Generator_ColumnPropNameInRow="Phone_Number" msprop:Generator_ColumnPropNameInTable="Phone_NumberColumn" msprop:Generator_UserColumnName="Phone_Number">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_1" />
+      <xs:field xpath="mstns:TicketID" />
+      <xs:field xpath="mstns:Expr1" />
+      <xs:field xpath="mstns:Expr2" />
+      <xs:field xpath="mstns:BuyerID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

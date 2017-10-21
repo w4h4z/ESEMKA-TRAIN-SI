@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A6F88E8-2CFD-46B6-BA10-E13A070356ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ESEMKA_TRAIN_SI.My.MyApplication</StartupObject>
+    <RootNamespace>ESEMKA_TRAIN_SI</RootNamespace>
+    <AssemblyName>ESEMKA TRAIN SI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ESEMKA TRAIN SI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ESEMKA TRAIN SI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Designer.vb">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database.vb" />
+    <Compile Include="ESEMKATRAINDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ESEMKATRAINDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ESEMKATRAINDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Guest.Designer.vb">
+      <DependentUpon>Guest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Frm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Frm.Designer.vb">
+      <DependentUpon>Login_Frm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reserve Ticket.Designer.vb">
+      <DependentUpon>Reserve Ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reserve Ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seat.Designer.vb">
+      <DependentUpon>Seat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guest.resx">
+      <DependentUpon>Guest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Frm.resx">
+      <DependentUpon>Login_Frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <EmbeddedResource Include="Reserve Ticket.resx">
+      <DependentUpon>Reserve Ticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seat.resx">
+      <DependentUpon>Seat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ESEMKATRAINDataSet.xsc">
+      <DependentUpon>ESEMKATRAINDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet.xss">
+      <DependentUpon>ESEMKATRAINDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet1.xsc">
+      <DependentUpon>ESEMKATRAINDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet1.xss">
+      <DependentUpon>ESEMKATRAINDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet10.xsc">
+      <DependentUpon>ESEMKATRAINDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet10.xss">
+      <DependentUpon>ESEMKATRAINDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet11.xsc">
+      <DependentUpon>ESEMKATRAINDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet11.xss">
+      <DependentUpon>ESEMKATRAINDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet12.xsc">
+      <DependentUpon>ESEMKATRAINDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet12.xss">
+      <DependentUpon>ESEMKATRAINDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet13.xsc">
+      <DependentUpon>ESEMKATRAINDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet13.xss">
+      <DependentUpon>ESEMKATRAINDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet14.xsc">
+      <DependentUpon>ESEMKATRAINDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet14.xss">
+      <DependentUpon>ESEMKATRAINDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet15.xsc">
+      <DependentUpon>ESEMKATRAINDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet15.xss">
+      <DependentUpon>ESEMKATRAINDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet2.xsc">
+      <DependentUpon>ESEMKATRAINDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet2.xss">
+      <DependentUpon>ESEMKATRAINDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet3.xsc">
+      <DependentUpon>ESEMKATRAINDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet3.xss">
+      <DependentUpon>ESEMKATRAINDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet4.xsc">
+      <DependentUpon>ESEMKATRAINDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet4.xss">
+      <DependentUpon>ESEMKATRAINDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet5.xsc">
+      <DependentUpon>ESEMKATRAINDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet5.xss">
+      <DependentUpon>ESEMKATRAINDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet6.xsc">
+      <DependentUpon>ESEMKATRAINDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet6.xss">
+      <DependentUpon>ESEMKATRAINDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet7.xsc">
+      <DependentUpon>ESEMKATRAINDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet7.xss">
+      <DependentUpon>ESEMKATRAINDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet8.xsc">
+      <DependentUpon>ESEMKATRAINDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet8.xss">
+      <DependentUpon>ESEMKATRAINDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet9.xsc">
+      <DependentUpon>ESEMKATRAINDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ESEMKATRAINDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ESEMKATRAINDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ESEMKATRAINDataSet9.xss">
+      <DependentUpon>ESEMKATRAINDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

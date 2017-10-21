@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ESEMKATRAINDataSet14" targetNamespace="http://tempuri.org/ESEMKATRAINDataSet14.xsd" xmlns:mstns="http://tempuri.org/ESEMKATRAINDataSet14.xsd" xmlns="http://tempuri.org/ESEMKATRAINDataSet14.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ESEMKATRAINConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ESEMKATRAINConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ESEMKA_TRAIN_SI.My.MySettings.GlobalReference.Default.ESEMKATRAINConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ScheduleTableAdapter" GeneratorDataComponentClassName="ScheduleTableAdapter" Name="Schedule" UserDataComponentName="ScheduleTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ESEMKATRAINConnectionString (MySettings)" DbObjectName="ESEMKATRAIN.dbo.Schedule" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Train_Name, Origin_Route, Destination_Route, Dept_Time, Arriv_Time, Train_Class FROM dbo.Schedule</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Train_Name" DataSetColumn="Train_Name" />
+              <Mapping SourceColumn="Origin_Route" DataSetColumn="Origin_Route" />
+              <Mapping SourceColumn="Destination_Route" DataSetColumn="Destination_Route" />
+              <Mapping SourceColumn="Dept_Time" DataSetColumn="Dept_Time" />
+              <Mapping SourceColumn="Arriv_Time" DataSetColumn="Arriv_Time" />
+              <Mapping SourceColumn="Train_Class" DataSetColumn="Train_Class" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ESEMKATRAINDataSet14" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ESEMKATRAINDataSet14" msprop:Generator_UserDSName="ESEMKATRAINDataSet14">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Schedule" msprop:Generator_TableClassName="ScheduleDataTable" msprop:Generator_TableVarName="tableSchedule" msprop:Generator_TablePropName="Schedule" msprop:Generator_RowDeletingName="ScheduleRowDeleting" msprop:Generator_RowChangingName="ScheduleRowChanging" msprop:Generator_RowEvHandlerName="ScheduleRowChangeEventHandler" msprop:Generator_RowDeletedName="ScheduleRowDeleted" msprop:Generator_UserTableName="Schedule" msprop:Generator_RowChangedName="ScheduleRowChanged" msprop:Generator_RowEvArgName="ScheduleRowChangeEvent" msprop:Generator_RowClassName="ScheduleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Train_Name" msprop:Generator_ColumnVarNameInTable="columnTrain_Name" msprop:Generator_ColumnPropNameInRow="Train_Name" msprop:Generator_ColumnPropNameInTable="Train_NameColumn" msprop:Generator_UserColumnName="Train_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Origin_Route" msprop:Generator_ColumnVarNameInTable="columnOrigin_Route" msprop:Generator_ColumnPropNameInRow="Origin_Route" msprop:Generator_ColumnPropNameInTable="Origin_RouteColumn" msprop:Generator_UserColumnName="Origin_Route">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Destination_Route" msprop:Generator_ColumnVarNameInTable="columnDestination_Route" msprop:Generator_ColumnPropNameInRow="Destination_Route" msprop:Generator_ColumnPropNameInTable="Destination_RouteColumn" msprop:Generator_UserColumnName="Destination_Route">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dept_Time" msprop:Generator_ColumnVarNameInTable="columnDept_Time" msprop:Generator_ColumnPropNameInRow="Dept_Time" msprop:Generator_ColumnPropNameInTable="Dept_TimeColumn" msprop:Generator_UserColumnName="Dept_Time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Arriv_Time" msprop:Generator_ColumnVarNameInTable="columnArriv_Time" msprop:Generator_ColumnPropNameInRow="Arriv_Time" msprop:Generator_ColumnPropNameInTable="Arriv_TimeColumn" msprop:Generator_UserColumnName="Arriv_Time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Train_Class" msprop:Generator_ColumnVarNameInTable="columnTrain_Class" msprop:Generator_ColumnPropNameInRow="Train_Class" msprop:Generator_ColumnPropNameInTable="Train_ClassColumn" msprop:Generator_UserColumnName="Train_Class">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
